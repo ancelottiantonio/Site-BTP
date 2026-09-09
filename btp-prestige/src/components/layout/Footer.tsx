@@ -10,10 +10,10 @@ export function Footer() {
   const { language, t } = useLanguage();
 
   const navigationLabels: Record<string, string> = {
-    Réalisations: t("projects"),
-    Expertise: t("expertise"),
-    Agence: t("agency"),
-    Contact: t("contact"),
+    Realizzazioni: t("projects"),
+    Competenze: t("expertise"),
+    Studio: t("agency"),
+    Contatti: t("contact"),
   };
 
   return (
@@ -89,7 +89,7 @@ export function Footer() {
 
         {/* Copyright */}
         <div className="mt-12 flex flex-col items-start justify-between gap-2 border-t border-cream-50/10 pt-6 font-sans text-xs uppercase tracking-wider text-cream-400 md:flex-row md:items-center">
-          <span>© {year} {COMPANY.name} — Depuis {COMPANY.founded}</span>
+          <span>© {year} {COMPANY.name} — {t("since")} {COMPANY.founded}</span>
           <span>{t("allRightsReserved")}</span>
         </div>
       </Container>

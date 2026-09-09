@@ -44,7 +44,7 @@ export function ContactForm() {
         <Input
           name="name"
           label={t("fullName")}
-          placeholder="Jean Dupont"
+          placeholder={t("namePlaceholder")}
           error={state.errors?.name}
           className={darkFieldClassName}
         />
@@ -62,7 +62,7 @@ export function ContactForm() {
         name="phone"
         type="tel"
         label={t("optionalPhone")}
-        placeholder="06 12 34 56 78"
+        placeholder={t("phonePlaceholder")}
         error={state.errors?.phone}
         className={darkFieldClassName}
       />

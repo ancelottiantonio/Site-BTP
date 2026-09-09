@@ -22,7 +22,7 @@ export async function generateMetadata({
   const project = getProjectBySlug(slug);
 
   if (!project) {
-    return { title: "Projet introuvable" };
+    return { title: "Realizzazione non trovata" };
   }
 
   const title = `${project.title} — ${project.location}`;

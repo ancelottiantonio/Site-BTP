@@ -84,7 +84,7 @@ export function ProjectDetail({ project }: ProjectDetailProps) {
               >
                 <Image
                   src={image}
-                  alt={`${localizedProject.title} — view ${index + 1}`}
+                  alt={`${localizedProject.title} — ${t("galleryImage")} ${index + 1}`}
                   fill
                   sizes="(max-width: 768px) 100vw, 50vw"
                   className="object-cover"

@@ -14,7 +14,7 @@ export default function ProjectNotFound() {
       className="flex min-h-[80svh] flex-col items-start justify-center"
     >
       <span className="rounded-full bg-terracotta/10 px-4 py-1.5 font-sans text-xs font-semibold uppercase tracking-[0.2em] text-terracotta">
-        Erreur 404
+        {t("error404")}
       </span>
       <h1 className="mt-4 font-display text-display-md font-semibold text-anthracite">
         {t("notFoundTitle")}

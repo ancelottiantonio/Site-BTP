@@ -3,72 +3,72 @@ import { StatItem, ServiceItem, NavLink } from "./types";
 
 export const COMPANY = {
   name: "CASANOVA",
-  tagline: "L'excellence structurelle",
+  tagline: "L'eccellenza strutturale",
   baseline:
-    "Nous construisons des ouvrages d'exception, où précision d'ingénierie et exigence architecturale ne font qu'un.",
+    "Realizziamo opere d'eccellenza dove precisione ingegneristica e rigore architettonico diventano un tutt'uno.",
   founded: 2009,
   phone: "+39 35 09 17 08 01",
   email: "contact@casanovabtp.com",
-  address: "Riviera di Chiaia, 251, 80121 Napoli NA, Italie",
+  address: "Riviera di Chiaia, 251, 80121 Napoli NA, Italia",
 } as const;
 
 export const NAV_LINKS: NavLink[] = [
-  { label: "Réalisations", href: "/#realisations" },
-  { label: "Expertise", href: "/#expertise" },
-  { label: "Agence", href: "/#agence" },
-  { label: "Contact", href: "/#contact" },
+  { label: "Realizzazioni", href: "/#realisations" },
+  { label: "Competenze", href: "/#expertise" },
+  { label: "Studio", href: "/#agence" },
+  { label: "Contatti", href: "/#contact" },
 ];
 
 export const STATS: StatItem[] = [
-  { label: "Années d'expertise", value: "15", suffix: "+" },
-  { label: "Chantiers livrés", value: "120", suffix: "+" },
-  { label: "Corps de métier intégrés", value: "8" },
-  { label: "Zéro accident majeur", value: "100", suffix: "%" },
+  { label: "Anni di esperienza", value: "15", suffix: "+" },
+  { label: "Cantieri consegnati", value: "120", suffix: "+" },
+  { label: "Mestieri integrati", value: "8" },
+  { label: "Incidenti gravi", value: "100", suffix: "%" },
 ];
 
 export const SERVICES: ServiceItem[] = [
   {
     slug: "gros-oeuvre",
-    title: "Gros Œuvre",
+    title: "Opere strutturali",
     description:
-      "Fondations, structures béton et charpente : la rigueur au service de la durabilité.",
+      "Fondazioni, strutture in calcestruzzo e carpenteria: rigore al servizio della durata.",
     icon: "hard-hat",
   },
   {
     slug: "architecture-sur-mesure",
-    title: "Architecture sur mesure",
+    title: "Architettura su misura",
     description:
-      "Conception intégrée, de l'esquisse au permis de construire, en lien avec nos architectes partenaires.",
+      "Progettazione integrata dallo schizzo al permesso di costruire, con i nostri architetti partner.",
     icon: "drafting-compass",
   },
   {
     slug: "renovation-haut-de-gamme",
-    title: "Rénovation haut de gamme",
+    title: "Ristrutturazione di pregio",
     description:
-      "Réhabilitation de bâtiments d'exception, alliant patrimoine et exigences contemporaines.",
+      "Riqualificazione di edifici d'eccezione, tra patrimonio e nuove esigenze contemporanee.",
     icon: "hammer",
   },
   {
     slug: "conduite-de-travaux",
-    title: "Conduite de travaux",
+    title: "Direzione lavori",
     description:
-      "Pilotage rigoureux des délais, des coûts et de la qualité sur l'ensemble du chantier.",
+      "Gestione rigorosa di tempi, costi e qualità durante l'intero cantiere.",
     icon: "clipboard-check",
   },
 ];
 
 export const SEO = {
   siteUrl: "https://www.casanovabtp.com", // à remplacer par le domaine final
-  ogImageAlt: "CASANOVA — Entreprise de BTP haut de gamme",
+  ogImageAlt: "CASANOVA — Impresa di costruzioni di pregio",
   keywords: [
-    "entreprise BTP haut de gamme",
-    "construction sur mesure",
-    "architecture Paris",
-    "rénovation haut de gamme",
-    "gros œuvre",
+    "impresa di costruzioni di pregio",
+    "costruzioni su misura",
+    "architettura Napoli",
+    "ristrutturazione di pregio",
+    "opere strutturali",
   ],
   geo: {
-    latitude: 48.8589,
-    longitude: 2.3775,
+    latitude: 40.8359,
+    longitude: 14.2488,
   },
 } as const;

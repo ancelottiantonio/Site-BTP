@@ -8,16 +8,16 @@ import { SEO } from "@/data/company";
 import { ProjectsPageIntro } from "@/components/sections/ProjectsPageIntro";
 
 export const metadata: Metadata = {
-  title: "Toutes les réalisations",
-  description: "Découvrez toutes les réalisations de CASANOVA.",
+  title: "Tutte le realizzazioni",
+  description: "Scopri tutte le realizzazioni di CASANOVA.",
   alternates: {
     canonical: "/realisations",
   },
   openGraph: {
     type: "website",
     url: `${SEO.siteUrl}/realisations`,
-    title: "Toutes les réalisations — CASANOVA",
-    description: "Découvrez toutes les réalisations de CASANOVA.",
+    title: "Tutte le realizzazioni — CASANOVA",
+    description: "Scopri tutte le realizzazioni di CASANOVA.",
   },
 };
 

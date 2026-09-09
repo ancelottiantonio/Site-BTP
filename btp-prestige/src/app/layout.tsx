@@ -54,7 +54,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: `${COMPANY.name} — Architecture & Construction Haut de Gamme`,
+    title: `${COMPANY.name} — Architettura e costruzioni di pregio`,
     description: COMPANY.baseline,
     images: ["/opengraph-image"],
   },

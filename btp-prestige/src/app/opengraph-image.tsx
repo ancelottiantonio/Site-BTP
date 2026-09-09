@@ -45,7 +45,7 @@ export default function OpengraphImage() {
             marginBottom: 24,
           }}
         >
-          Entreprise Générale du Bâtiment
+          Impresa Generale di Costruzioni
         </div>
         <div
           style={{

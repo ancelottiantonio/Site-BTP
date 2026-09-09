@@ -14,14 +14,14 @@ export function JsonLd() {
     address: {
       "@type": "PostalAddress",
       streetAddress: COMPANY.address,
-      addressCountry: "FR",
+      addressCountry: "IT",
     },
     geo: {
       "@type": "GeoCoordinates",
       latitude: SEO.geo.latitude,
       longitude: SEO.geo.longitude,
     },
-    areaServed: "FR",
+    areaServed: "IT",
     priceRange: "€€€",
   };
 

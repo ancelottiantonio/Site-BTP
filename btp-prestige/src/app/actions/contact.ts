@@ -48,8 +48,11 @@ export async function submitContactForm(
   const email = String(formData.get("email") ?? "").trim();
   const phone = String(formData.get("phone") ?? "").trim();
   const message = String(formData.get("message") ?? "").trim();
-  const languageValue = String(formData.get("language") ?? "fr");
-  const language: FormLanguage = languageValue === "en" || languageValue === "it" ? languageValue : "fr";
+  const languageValue = String(formData.get("language") ?? "it");
+  const language: FormLanguage =
+    languageValue === "fr" || languageValue === "en" || languageValue === "it"
+      ? languageValue
+      : "it";
   const localizedMessages = messages[language];
 
   const errors: ContactFormState["errors"] = {};

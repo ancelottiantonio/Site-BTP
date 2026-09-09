@@ -20,10 +20,10 @@ export function Header() {
   const { language, setLanguage, t } = useLanguage();
 
   const navigationLabels: Record<string, string> = {
-    Réalisations: t("projects"),
-    Expertise: t("expertise"),
-    Agence: t("agency"),
-    Contact: t("contact"),
+    Realizzazioni: t("projects"),
+    Competenze: t("expertise"),
+    Studio: t("agency"),
+    Contatti: t("contact"),
   };
 
   useMotionValueEvent(scrollY, "change", (latest) => {
@@ -122,7 +122,7 @@ function MobileMenuTrigger() {
     <>
       <button
         onClick={() => setOpen((v) => !v)}
-        aria-label="Ouvrir le menu"
+        aria-label={t("openMenu")}
         aria-expanded={open}
         className="flex h-10 w-10 flex-col items-center justify-center gap-1.5 rounded-full bg-anthracite/5 md:hidden"
       >

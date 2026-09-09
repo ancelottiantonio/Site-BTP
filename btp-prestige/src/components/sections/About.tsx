@@ -52,7 +52,7 @@ export function About() {
               <div className="relative aspect-[16/10] w-full overflow-hidden rounded-3xl bg-cream-200 shadow-soft-lg">
                 <Image
                   src={STOCK_IMAGES.about.chantier}
-                  alt={`Équipe ${COMPANY.name} sur chantier`}
+                  alt={t("teamImageAlt")}
                   fill
                   sizes="(max-width: 768px) 100vw, 50vw"
                   className="object-cover"

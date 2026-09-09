@@ -70,6 +70,13 @@ const translations = {
     yourProject: "Votre projet",
     sendRequest: "Envoyer ma demande",
     sending: "Envoi en cours...",
+    openMenu: "Ouvrir le menu",
+    galleryImage: "vue",
+    namePlaceholder: "Jean Dupont",
+    phonePlaceholder: "06 12 34 56 78",
+    teamImageAlt: "Équipe CASANOVA sur chantier",
+    since: "Depuis",
+    error404: "Erreur 404",
   },
   en: {
     navigation: "Navigation",
@@ -135,6 +142,13 @@ const translations = {
     yourProject: "Your project",
     sendRequest: "Send my request",
     sending: "Sending...",
+    openMenu: "Open menu",
+    galleryImage: "view",
+    namePlaceholder: "John Doe",
+    phonePlaceholder: "+1 212 555 0123",
+    teamImageAlt: "CASANOVA team on site",
+    since: "Since",
+    error404: "Error 404",
   },
   it: {
     navigation: "Navigazione",
@@ -200,6 +214,13 @@ const translations = {
     yourProject: "Il tuo progetto",
     sendRequest: "Invia la richiesta",
     sending: "Invio in corso...",
+    openMenu: "Apri il menu",
+    galleryImage: "vista",
+    namePlaceholder: "Mario Rossi",
+    phonePlaceholder: "+39 333 123 4567",
+    teamImageAlt: "Team CASANOVA in cantiere",
+    since: "Dal",
+    error404: "Errore 404",
   },
 } as const;
 
@@ -308,7 +329,7 @@ interface LanguageContextValue {
 }
 
 const LanguageContext = createContext<LanguageContextValue | null>(null);
-const LANGUAGE_STORAGE_KEY = "casanova-language-v2";
+const LANGUAGE_STORAGE_KEY = "casanova-language-v3";
 
 export function LanguageProvider({ children }: { children: React.ReactNode }) {
   const [language, setLanguageState] = useState<Language>("it");
