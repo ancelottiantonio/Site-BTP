@@ -281,7 +281,28 @@ const localizedProjects: Record<Language, Record<string, Partial<Project>>> = {
 };
 
 const localizedServices: Record<Language, Record<string, Partial<ServiceItem>>> = {
-  fr: {},
+  fr: {
+    "gros-oeuvre": {
+      title: "Gros œuvre",
+      description:
+        "Fondations, structures en béton et charpente : la rigueur au service de la durabilité.",
+    },
+    "architecture-sur-mesure": {
+      title: "Architecture sur mesure",
+      description:
+        "Conception intégrée, de l'esquisse au permis de construire, avec nos architectes partenaires.",
+    },
+    "renovation-haut-de-gamme": {
+      title: "Rénovation haut de gamme",
+      description:
+        "Rénovation de bâtiments d'exception, entre patrimoine et exigences contemporaines.",
+    },
+    "conduite-de-travaux": {
+      title: "Conduite de travaux",
+      description:
+        "Gestion rigoureuse des délais, des coûts et de la qualité tout au long du chantier.",
+    },
+  },
   en: {
     "gros-oeuvre": {
       title: "Structural Work",
